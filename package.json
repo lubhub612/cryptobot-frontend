@@ -6,7 +6,8 @@
   "scripts": {
     "start": "react-scripts start",
     "start-ssl": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "build-ssl": "react-scripts  build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --ext .js,.jsx ./src",
